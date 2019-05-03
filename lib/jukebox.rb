@@ -26,6 +26,7 @@ def list (songs)
 end
 
 def play (input)
+  input = 10
   if [1..10].include?(input)
     binding.pry
     return true
