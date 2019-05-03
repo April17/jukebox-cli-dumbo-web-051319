@@ -28,7 +28,7 @@ end
 def play (songs)
   binding.pry
   puts "Please enter a song name or number:"
-  input = gets.chomp
+  input = 1
 
   if (1..10).to_a.include?(input)
     puts "Playing #{songs[input - 1]}"
