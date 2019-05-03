@@ -1,3 +1,4 @@
+require "pry"
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -25,7 +26,9 @@ def list (songs)
 end
 
 def play (input)
+
   if input == [0..10]
+    binding.pry
     return true
   end
 end
