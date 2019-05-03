@@ -26,7 +26,7 @@ def list (songs)
 end
 
 def play (input)
-
+  input = 10
   if input == [0..10]
     binding.pry
     return true
