@@ -25,9 +25,10 @@ def list (songs)
   end
 end
 
-def play (input)
-  input = 10
-  if [1..10].include?(input)
+def play (songs)
+  puts "Please enter a song name or number:"
+  input = gets.chomp
+  if [1..10].include? (input)
     binding.pry
     return true
   end
